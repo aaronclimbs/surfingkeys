@@ -1,6 +1,8 @@
 map("J", "R");
 map("K", "E");
 
+iunmap(":");
+
 addSearchAliasX('A', 'amazon', 'https://www.amazon.com/s?k=');
 
 mapkey('oA', '#8Open Search with alias A', function() {
