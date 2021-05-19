@@ -1,0 +1,20 @@
+map("J", "R");
+map("K", "E");
+
+addSearchAliasX('A', 'amazon', 'https://www.amazon.com/s?k=');
+
+mapkey('oA', '#8Open Search with alias A', function() {
+    Front.openOmnibar({type: "SearchEngine", extra: "A"});
+});
+
+addSearchAliasX('D', 'docket alarm', 'https://www.docketalarm.com/search/?q=');
+
+mapkey('oD', '#8Open Search with alias D', function() {
+    Front.openOmnibar({type: "SearchEngine", extra: "D"});
+});
+
+addSearchAliasX('W', 'westlaw', 'https://1.next.westlaw.com/Search/Results.html?query=');
+
+mapkey('oW', '#8Open Search with alias W', function() {
+    Front.openOmnibar({type: "SearchEngine", extra: "W"});
+})
